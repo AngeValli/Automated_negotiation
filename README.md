@@ -20,8 +20,8 @@ The concessions are computed based on the current estimation of Nash equilibrium
 - <ins>Acceptance strategy modelling :</ins>
   
 Acceptance scenarios :  
-    - Accept the offer if the utility of the offer is above a given threshold (9 here), as the proposal is above our expectations so it is no longer needed to negotiate.
-    - In case the negotiation reaches the last offer, accept if the utility is above a given threshold (3 here), as it is better to accept the last one in this context.
+    - Accept the offer if the utility of the offer is above a given threshold (9 here), as the proposal is above our expectations so it is no longer needed to negotiate.  
+    - In case the negotiation reaches the last offer, accept if the utility is above a given threshold (3 here), as it is better to accept the last one in this context.  
     - Accept the offer if the time t is above a certain threshold and if we do not predict better offers on the next rounds, if the utility is above the minimum threshold of 3. There is no need here to wait for the last round.  
 Refuse otherwise.  
   
